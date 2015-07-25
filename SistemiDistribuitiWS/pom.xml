@@ -23,6 +23,14 @@
           <failOnMissingWebXml>false</failOnMissingWebXml>
         </configuration>
       </plugin>
+      <plugin>
+  <groupId>com.heroku.sdk</groupId>
+  <artifactId>heroku-maven-plugin</artifactId>
+  <version>0.3.4</version>
+  <configuration>
+    <appName>sistemidistribuiti</appName>
+  </configuration>
+</plugin>
     </plugins>
   </build>
   <dependencies>
